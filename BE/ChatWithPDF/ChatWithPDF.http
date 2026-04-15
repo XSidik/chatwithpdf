@@ -1,0 +1,6 @@
+@ChatWithPDF_HostAddress = http://localhost:5151
+
+GET {{ChatWithPDF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

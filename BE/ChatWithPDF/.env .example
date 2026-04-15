@@ -1,0 +1,16 @@
+# JWT Configuration
+Jwt__SecretKey=
+Jwt__ExpiryMinutes=
+
+# Google AI Configuration
+GoogleAI__ApiKey=
+GoogleAI__EmbeddingModel=
+
+# MinIO Configuration
+Minio__Endpoint=
+Minio__AccessKey=
+Minio__SecretKey=
+Minio__BucketName=
+
+# Database Configuration
+ConnectionStrings__DefaultConnection=

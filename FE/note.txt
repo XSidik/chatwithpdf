@@ -1,0 +1,6 @@
+FE Libraries:
+- next-auth
+- axios
+- js-cookie
+- react
+- next

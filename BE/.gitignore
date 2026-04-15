@@ -1,0 +1,6 @@
+.vscode
+obj
+bin
+Docker/minio_data
+note.txt
+.env

@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: pgvector/pgvector:0.8.2-pg18-trixie
+    container_name: vector-db
+    restart: always
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "mort1234"
+      POSTGRES_DB: "chat_with_pdf"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    networks:
+      - chat_with_pdf_network
+
+networks:
+  chat_with_pdf_network:
+    driver: bridge
+
+volumes:
+  postgres_data:

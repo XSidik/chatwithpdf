@@ -1,0 +1,3 @@
+const ApiUrl = process.env.NEXT_PUBLIC_API_BASE_URL ?? "${NEXT_PUBLIC_API_BASE_URL}";
+const ClientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID ?? "${NEXT_PUBLIC_GOOGLE_CLIENT_ID}";
+export { ApiUrl, ClientId }
